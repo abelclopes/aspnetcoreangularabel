@@ -91,9 +91,9 @@ This utilizes all the latest standards, no gulp, no bower, no typings, no manual
 - **Azure**
   - Microsoft Application Insights setup (for MVC & Web API routing)
   - Client-side Angular Application Insights integration
-    - If you're using Azure simply install `npm i -S @markpieszak/ng-application-insights` as a dependencies.
-    - Note: Make sure only the Browser makes these calls ([usage info here](https://github.com/MarkPieszak/angular-application-insights/blob/master/README.md#usage))
-    - More information here: - https://github.com/MarkPieszak/angular-application-insights
+    - If you're using Azure simply install `npm i -S @abelclopes/ng-application-insights` as a dependencies.
+    - Note: Make sure only the Browser makes these calls ([usage info here](https://github.com/abelclopes/angular-application-insights/blob/master/README.md#usage))
+    - More information here: - https://github.com/abelclopes/angular-application-insights
     ```typescript
       // Add the Module to your imports 
       ApplicationInsightsModule.forRoot({
@@ -164,7 +164,7 @@ export ASPNETCORE_ENVIRONMENT=Development
 Using `dotnet publish`, when it's finished place the generated folder onto your server and use IIS to fire everything up.
 
 ### Heroku 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/MarkPieszak/aspnetcoreangularabel.git">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/abelclopes/aspnetcoreangularabel.git">
 <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku">
 </a>
 
@@ -390,7 +390,7 @@ constructor(element: ElementRef, renderer: Renderer2) {
 
 ----
  
-# FAQ - Also check out the [!FAQ Issues label!](https://github.com/MarkPieszak/aspnetcoreangularabel/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Afaq) and the [!HOW-TO Issues Label!](https://github.com/MarkPieszak/aspnetcoreangularabel/issues?q=is%3Aissue+label%3A%22HOW+TO+-+Guide%22)
+# FAQ - Also check out the [!FAQ Issues label!](https://github.com/abelclopes/aspnetcoreangularabel/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Afaq) and the [!HOW-TO Issues Label!](https://github.com/abelclopes/aspnetcoreangularabel/issues?q=is%3Aissue+label%3A%22HOW+TO+-+Guide%22)
 
 ### How can I disable SSR (Server-side rendering)?
 
@@ -448,7 +448,7 @@ Also thank you to the many Contributors !
  
 # Found a Bug? Want to Contribute?
 
-[Check out our easier issues here](https://github.com/MarkPieszak/aspnetcoreangularabel/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22PRs%20welcome!%22%20)
+[Check out our easier issues here](https://github.com/abelclopes/aspnetcoreangularabel/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22PRs%20welcome!%22%20)
 
 Nothing's ever perfect, but please let me know by creating an issue (make sure there isn't an existing one about it already), and we'll try and work out a fix for it! If you have any good ideas, or want to contribute, feel free to either make an Issue with the Proposal, or just make a PR from your Fork.
 
@@ -458,7 +458,7 @@ Nothing's ever perfect, but please let me know by creating an issue (make sure t
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
 
-Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
+Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/abelclopes)
 
 ----
 
@@ -476,4 +476,4 @@ Contact us at <hello@devhelp.online>, and let's talk about your projects needs.
 
 ## Follow me online:
 
-Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
+Twitter: [@abelclopes](http://twitter.com/abelclopes) | Medium: [@abelclopes](https://medium.com/@abelclopes)
